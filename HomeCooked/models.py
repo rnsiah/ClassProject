@@ -1,4 +1,5 @@
 from django.db import models
+import 
 
 
 class Vendor(models.Model):
@@ -6,7 +7,7 @@ class Vendor(models.Model):
     date_added=models.DateField(auto_now_add=True)
     
 
-    
+ class User()   
 
    
 
