@@ -18,5 +18,9 @@ class Vendor(models.Model):
 
 # Create your models here.
 
-
-
+class Meal(models.Model)
+name = models.CharField(max_length=100, blank=False, null=False)
+date_added = models.DateField(auto_now_add=True)
+description = models.CharField(max_length=75, blank=False, null=False)
+review = models.CharField(max_length=100, blank=True, null=True)
+image_url = models.TextField(null= True, blank=True)
