@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'HomeCooked',
     'phonenumber_field',
+    "AUTH_USER_MODEL = HomeCooked.MyUser"
 ]
 
 MIDDLEWARE = [
