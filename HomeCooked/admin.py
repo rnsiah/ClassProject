@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import Vendor, Meal
+from .models import Kitchn, Meal
 
 # Register your models here.
 
-admin.site.register(Vendor)
+admin.site.register(Kitchn)
 admin.site.register(Meal)
