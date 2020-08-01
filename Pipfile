@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 django = "*"
 django-allauth = "~=0.42.0"
+django-phonenumber-field = "*"
+phonenumbers = "*"
 
 [requires]
 python_version = "3.8"
