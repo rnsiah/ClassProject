@@ -6,5 +6,6 @@ from . import views
 
 urlpatterns = [
     path('', HomePageView.as_view(), name='home'),
-    path('createkitchn', views.createkitchn, name="createKitchen")
+    path('createkitchn/', views.createkitchn, name= "createKitchen" ),
+    path('startkitchn/', views.startkitchn, name = 'startkitch')
 ]
