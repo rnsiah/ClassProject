@@ -9,3 +9,6 @@ class HomePageView(TemplateView):
 
 def createkitchn(request):
     pass
+
+
+#create all meals view
