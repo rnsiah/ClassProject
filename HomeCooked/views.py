@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
+from .forms import KitchnForm
+
 
 
 class HomePageView(TemplateView):
@@ -8,4 +10,11 @@ class HomePageView(TemplateView):
 
 
 def createkitchn(request):
-    pass
+    return render(request, 'createkitchn.html')
+
+
+def startkitchn(request):
+    return render(request, 'startkitchn.html',)
+
+
+
